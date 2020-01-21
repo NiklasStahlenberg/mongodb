@@ -1,0 +1,49 @@
+h2{
+  text-align: center;
+}
+
+.maincontainer {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.formcontainer{
+  margin-top: 15px;
+}
+
+#output {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  #output td, #output th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #output tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #output tr:hover {background-color: #ddd;}
+  
+  #output th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .deleteBtn {      
+      color:red;      
+      
+  }
+
+  .deleteCell{
+      width: 50px;
+  }
+
+  .deleteBtn:hover{
+      cursor: pointer;
+      background-color: antiquewhite;
+  }
